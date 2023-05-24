@@ -2,11 +2,11 @@ import React, {useState} from "react";
 import Form from "./Form";
 import Card from './Card';
 const CardClima = () =>{
-    let urltiempo = "https://api.weatherapi.com/v1/current.json?key=bebcae210c2c49339b8222320230505";
-    
     let cityurl="&q=";
-  
-    let urlpronostico="https://api.weatherapi.com/v1/forecast.json?key=bebcae210c2c49339b8222320230505";
+    let dias="&days=3";
+    let urlpronostico="https://api.weatherapi.com/v1/forecast.json?key=7b6c78c29c25447aaf5102820232205";
+    
+    let urltiempo    ="https://api.weatherapi.com/v1/current.json?key=7b6c78c29c25447aaf5102820232205";
 
     const [tiempo, setTiempo]=useState([]);
     const [pronostico, setPronostico]=useState([]);
@@ -18,35 +18,46 @@ const CardClima = () =>{
         setLoading(true);
         setLocation(loc);
 
-        urltiempo = urltiempo + cityurl + loc ;
+    urltiempo=urltiempo + cityurl + loc ;
 
-        await fetch(urltiempo)
+    // CURRENT  - TRAE LOS DATOS DEL DIA ACTUAL 
+    await fetch(urltiempo)
+    .then((response)=>{
+      if(!response.ok) throw{response}
+      return response.json();
+      }).then ((tiempo)=>{
+           console.log(tiempo);
+           setTiempo(tiempo);
+       }).catch(error=>{
+           setLoading(false);
+           setMostrar(false);
+  });
+
+ // FORECAST  - TRAE LOS DATOS DEL DIA ACTUAL Y DOS DIAS DE PRONOSTICOS
+
+  urlpronostico=urlpronostico + cityurl + loc + dias ; 
+
+        await fetch(urlpronostico)
           .then((response)=>{
             if(!response.ok) throw{response}
             return response.json();
-        }).then ((tiempoData)=>{
-            console.log(tiempoData.current); //por ejemplo tiempoData.current o tiempoData.location
-            setTiempo(tiempoData);
+        }).then ((pronostico)=>{
+          console.log(pronostico);
+           setPronostico(pronostico);
         }).catch(error=>{
-            console.log(error);
             setLoading(false);
             setMostrar(false);
         });
 
-        //AQUI VA EL RESTO
     }
     return (
         <React.Fragment>
             <Form
               newLocation={getLocation}
             />
-            <Card
-                mostrarData = {mostrar}
-                loadingData = {loading}
-                tiempoData = {tiempo}
-                pronosticoData = {pronostico}
-            />
+            <Card/> 
         </React.Fragment>
+         
     );
 }
 
