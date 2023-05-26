@@ -1,11 +1,12 @@
 import React,{useState} from 'react';
+
 const Form = ({newLocation}) => {
     const [city, setCity] = useState("");
 
     const onSubmit = (e) => {
         e.preventDefault();
         if(city===""||!city) return;
-        newLocation(city);
+        newLocation(city); 
     }
     return (
         <div className='container'>
@@ -15,8 +16,11 @@ const Form = ({newLocation}) => {
                     <button className='btn btn-primary input-group-text' type="submit"> Buscar </button>
                 </div>
             </form>
+            <typography>
+                  Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+            </typography>
+            
         </div>
-
     );
 }
 
