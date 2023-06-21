@@ -1,39 +1,40 @@
 import React,{useState, useEffect} from 'react';
+import axios from 'axios';
 import '../assets/css/App.css';
 // import Spin from './Spin';
-let leng="&lang=es";
-let dias="&days= 3";
 const CardForecast = (props)=> {
    const {ciudad} =props;
-    let urlforecast = `https://api.weatherapi.com/v1/forecast.json?key=7b6c78c29c25447aaf5102820232205&q=`;
-    const [data , setData] = useState({});
-    urlforecast = urlforecast  + ciudad +  dias  + leng;
-    useEffect(()=>{
-        const getData=async() =>{
-            const response = await fetch (urlforecast);
-            const { location, forecast} = await response.json();
-            // console.log(forecast);  //trae un arreglo con los dias 0, 1, 2
-            setData({
-                localidad: location.name,
-                region: location.region,
-                pais: location.country,
-                zona_id : location.tz_id,
-                fechadia: location.localtime,
-                pronostico:forecast.forecastday,
-            });
-        }
-        getData()
-    })
-    const { localidad, region, pais, zona_id , fechadia , pronostico } = data;
-    console.log(pronostico);
+   const [data, setData] = useState({});
+   let leng="&lang=es";
+   let dias="&days=3";
+   let urlforecast =`https://api.weatherapi.com/v1/forecast.json?key=7b6c78c29c25447aaf5102820232205&q=`
+   let url=urlforecast + ciudad + dias + leng;
+   console.log(url);
+    useEffect(() => {
+      const buscaData = async () => {
+        const { data } = await axios.get(url);
+        setData({
+          localidad: data.location.name,
+          region: data.location.region,
+          pais: data.location.pais,
+          pronostico: data.forecast.forecastday,
+        })
+        
+      }
+      buscaData();
+    }, []);
+
+    const { localidad, region, pais, pronostico }= data;
+
     return (
-      <div className=" container2 ">
+      <div className="container"> 
         {ciudad && (
         <div className="row">
             <div className="col displayFlex1 ">
-              <p> {localidad}, {region}</p>
+              <p>{localidad}</p>
+              <p>{region}</p>
               <p>{pais}</p>
-                {
+              {
                   pronostico && pronostico.map(item=>
                     <ul>
                     <li key={item.date} className="listStyle">
@@ -44,7 +45,6 @@ const CardForecast = (props)=> {
                       <p>{item.day.condition.text}</p> </li>
                     </ul>
                   )}
-             
             </div>
         </div> 
         )}
