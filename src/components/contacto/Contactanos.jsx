@@ -1,5 +1,6 @@
 import './Contactanos.css';
 import React, { useState } from 'react';
+import NavBar from '../menu/NavBar';
 
 function ContactForm() {
   const [firstName, setFirstName] = useState('');
@@ -32,6 +33,7 @@ function ContactForm() {
 
   return (
     <div>
+        <NavBar/>
       <form className='formContacto' onSubmit={handleSubmit}>
       <h2>Deja tu consulta.</h2>
       <br></br>

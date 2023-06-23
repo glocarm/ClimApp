@@ -13,18 +13,15 @@ const CardForecast = (props)=> {
           region: data.location.region,
           pais: data.location.pais,
           pronostico: data.forecast.forecastday,
-        })
-        
+        })       
       }
       buscaData();
     }, [ciudad,url]);
-
     const { localidad, region, pais, pronostico }= data;
     return (
       <div className="container"> 
         {ciudad && (
          <div className="row container3">
-            
               <p>{localidad}</p>
               <p>{region}</p>
               <p>{pais}</p>

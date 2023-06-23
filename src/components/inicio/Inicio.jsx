@@ -1,4 +1,5 @@
 import "../../assets/css/App.css";
+import { Link } from 'react-router-dom';
 
 function Inicio() {
   return (
@@ -13,7 +14,12 @@ function Inicio() {
           border="0"
         />
       </div>
+      <div>
+      <Link to="/Home">
       <button className="btn btn-dark mb-10">Ingresar</button>
+     </Link>
+     </div>
+      
     </div>
   );
 }
