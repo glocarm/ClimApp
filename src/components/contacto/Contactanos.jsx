@@ -1,4 +1,4 @@
-import '../assets/css/Contactanos.css';
+import './Contactanos.css';
 import React, { useState } from 'react';
 
 function ContactForm() {

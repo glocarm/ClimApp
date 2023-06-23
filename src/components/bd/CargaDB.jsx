@@ -1,6 +1,5 @@
 import React,{useState, useEffect} from 'react';
 import axios from 'axios';
-
 import '../assets/css/App.css';
 // import Spin from './Spin';
 const CargaDB = (props)=> {

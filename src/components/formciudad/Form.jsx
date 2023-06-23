@@ -17,7 +17,7 @@ const Form = ({newLocation}) => {
                 </div>
             </form>
             <typography>
-                  Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+                  Powered by weatherapi.com
             </typography>
             
         </div>

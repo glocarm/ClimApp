@@ -1,8 +1,8 @@
-import '../assets/css/App.css';
+import '../../assets/css/App.css';
 
 function Nosotras() {
   return (
-    <div className="App">
+    <div className="container">
         <p>
           PAGINA ACERCA DE NOSOTRAS
         </p>

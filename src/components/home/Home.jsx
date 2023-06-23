@@ -1,5 +1,5 @@
-import '../assets/css/App.css';
-import CardClima from './CardClima';
+import '../../assets/css/App.css';
+import CardClima from '../clima/CardClima';
 function Home() {
   return (
     <div className="App">
