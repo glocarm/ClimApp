@@ -1,13 +1,13 @@
 {
   "location": {
-    "name": "Maturín",
-    "region": "Monagas",
+    "name": "Barquisimeto",
+    "region": "Lara",
     "country": "Venezuela",
-    "lat": 9.75,
-    "lon": -63.18,
+    "lat": 10.07,
+    "lon": -69.32,
     "tz_id": "America/Caracas",
-    "localtime_epoch": 1687386472,
-    "localtime": "2023-06-21 18:27"
+    "localtime_epoch": 1687484810,
+    "localtime": "2023-06-22 21:46"
   },
   "forecastday": [
     [

@@ -18,7 +18,7 @@ const CargaDB = (props)=> {
         axios.post('http://localhost:5000/forecastday',data.forecast.forecastday);
       }
       guardaData();
-    }, []);
+    },[])
   
   return (
     <div>

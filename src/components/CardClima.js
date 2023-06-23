@@ -2,6 +2,7 @@ import React, {useState , useEffect} from 'react';
 import '../assets/css/App.css';
 import Form from './Form';
 import CardForecast from  './CardForecast';
+import CargaDB from './CargaDB';
 const CardClima = () =>{
 	
 	const [loading, setLoading] = useState(false);
@@ -19,6 +20,8 @@ const CardClima = () =>{
             />
            {  <CardForecast ciudad={location} 
             /> }
+          {/*   {  <CargaDB ciudad={location} 
+            /> } */}
     </React.Fragment>
 )
 };

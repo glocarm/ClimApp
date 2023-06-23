@@ -9,7 +9,6 @@ const CardForecast = (props)=> {
    let dias="&days=3";
    let urlforecast =`https://api.weatherapi.com/v1/forecast.json?key=7b6c78c29c25447aaf5102820232205&q=`
    let url=urlforecast + ciudad + dias + leng;
-   console.log(url);
     useEffect(() => {
       const buscaData = async () => {
         const { data } = await axios.get(url);
@@ -25,11 +24,10 @@ const CardForecast = (props)=> {
     }, []);
 
     const { localidad, region, pais, pronostico }= data;
-
     return (
       <div className="container"> 
         {ciudad && (
-        <div className="row">
+         <div className="row">
             <div className="col displayFlex1 ">
               <p>{localidad}</p>
               <p>{region}</p>
@@ -46,7 +44,7 @@ const CardForecast = (props)=> {
                     </ul>
                   )}
             </div>
-        </div> 
+          </div> 
         )}
      </div> 
     ) 
