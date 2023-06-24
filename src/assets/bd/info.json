@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vlZhVsJ5U_ivLDgR_M8NOlieMzd_phYJqg030e1agZw-Oa3_PYFo3sB2BrPJY5j7GdQ&usqp=CAU",
+        "nombre": "Gloria Carmona",
+        "github": "https://github.com/glocarm",
+        "ocupación": "Docente",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 2,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nVFXisOaBh6WF5T3-pAfYxZAVQMN3SylMugx0oG61iqtsJZg5mulBbBDTTDmjwPDEe0&usqp=CAU",
+        "nombre": "Yolgreg González",
+        "github": "https://github.com/yolgregnita",
+        "ocupación": "Emprendedora",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 3,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScqcm4242yBUTbHR_u8wWm0K_svMhaN_KVH1pMWonEolOO8NSEk5CnZA3lo0oVqO1HXFU&usqp=CAU",
+        "nombre": "Eugenia Araujo",
+        "github": "https://github.com/Meapsama",
+        "ocupación": "Niñera",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 4,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz9B-oyH6zK2gV4CUcWOObftzjd7Sz-NWkuXxvH0r7rMwLp1h1zlYpH-40PqHaJJI76P4&usqp=CAU",
+        "nombre": "Yaneida Vargas",
+        "github": "https://github.com/janeidad",
+        "ocupación": "Emprendedora",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 5,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnxEf9jXIcym59XTBmSDFAjYNO_6rTpmxXX2C6eGip_GyxkMItUHFG1bPJrnId7ONI8g&usqp=CAU",
+        "nombre": "Ani Briceño",
+        "github": "https://github.com/AniBrix",
+        "ocupación": "E. L. Gastronómico",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThKXkrJucnJ3Hhf5vJKMhZmd4prR0EvmJo72h46jHV4BWCh_SOHOh-xnrPWQU1JS7KNPY&usqp=CAU",
+        "nombre": "Daniela Barragan",
+        "github": "https://github.com/daniela",
+        "ocupación": "Tester QA",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 7,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS45pvs-06Uo4hytfdq50_7LUgy_cqoYWGMdv-uB7y0yaof3MDVto1-4x_tm4Mc8x-0o7k&usqp=CAU",
+        "nombre": "Vanesa",
+        "github": "https://github.com/vanessagit",
+        "ocupación": "Contadora",
+        "meta": "Desarrolladora FullStack"
+    },
+    {
+        "id": 8,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRviCZV-N59usCOQ7Ymqd62sEwYEIF-Eg7y1TF1w8EQaLVcBEFGlpUAqs7EZSwEpxGXDVI&usqp=CAU",
+        "nombre": "Nicole",
+        "github": "https://github.com/nicolegit",
+        "ocupación": "Abogada",
+        "meta": "Desarrolladora FullStack"
+    }
+]

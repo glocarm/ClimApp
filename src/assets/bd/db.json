@@ -1,0 +1,298 @@
+{
+  "location": {
+    "name": "Barquisimeto",
+    "region": "Lara",
+    "country": "Venezuela",
+    "lat": 10.07,
+    "lon": -69.32,
+    "tz_id": "America/Caracas",
+    "localtime_epoch": 1687484810,
+    "localtime": "2023-06-22 21:46"
+  },
+  "forecastday": [
+    [
+      {
+        "date": "2023-06-21",
+        "date_epoch": 1687305600,
+        "day": {
+          "maxtemp_c": 30,
+          "mintemp_c": 21.6,
+          "avgtemp_c": 25.1,
+          "maxwind_kph": 8.6,
+          "totalprecip_mm": 6.5,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 1,
+          "daily_chance_of_rain": 87,
+          "condition": {
+            "text": "Lluvia moderada",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+            "code": 1189
+          }
+        },
+        "astro": {},
+        "hour": [
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          }
+        ]
+      },
+      {
+        "date": "2023-06-22",
+        "date_epoch": 1687392000,
+        "day": {
+          "maxtemp_c": 30.7,
+          "mintemp_c": 22.2,
+          "avgtemp_c": 25.8,
+          "maxwind_kph": 10.1,
+          "totalprecip_mm": 5.5,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 1,
+          "daily_chance_of_rain": 88,
+          "condition": {
+            "text": "Lluvia moderada",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+            "code": 1189
+          }
+        },
+        "astro": {},
+        "hour": [
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          }
+        ]
+      },
+      {
+        "date": "2023-06-23",
+        "date_epoch": 1687478400,
+        "day": {
+          "maxtemp_c": 30.4,
+          "mintemp_c": 22.2,
+          "avgtemp_c": 25.2,
+          "maxwind_kph": 10.1,
+          "totalprecip_mm": 35.6,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 1,
+          "daily_chance_of_rain": 89,
+          "condition": {
+            "text": "Fuertes lluvias",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/308.png",
+            "code": 1195
+          }
+        },
+        "astro": {},
+        "hour": [
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          },
+          {
+            "condition": {}
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,12 +1,12 @@
 import {Link} from 'react-router-dom';
-
+import '../../assets/css/App.css';
 const NavBar = () => {
   return (
     <nav className="Navbar bg-dark text-light mb-5">
       <div className="container-fluid">
-        <h3 className="mx-auto"> ClimApp </h3>
+        <h3 className="mx-auto"> WEATHERAPI.COM </h3>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
+          <div class="container-fluid opcionesmenu">
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
               <li class="nav-item">
