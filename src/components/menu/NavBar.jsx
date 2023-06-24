@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="container-fluid">
         <h3 className="mx-auto"> WEATHERAPI.COM </h3>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
+          <div class="container-fluid opcionesmenu">
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
               <li class="nav-item">
